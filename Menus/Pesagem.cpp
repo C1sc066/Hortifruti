@@ -3,6 +3,7 @@
 void Pessagem() {
 
     system("cls");
+    cout << "Teste";
 
 
 }
