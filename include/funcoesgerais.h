@@ -24,14 +24,15 @@ void AvisosEstoque();
 void LerFornecedores();
 void AddFornecedores();
 
-//Pessagem
-void pesagem();
-
 //Menus
 void MenuAdmin();
 void MenuEstoque();
 
-//Variaveis os arquivos que o programa vai ler
+//SubMenu
+void SubmenuLogin();
+void SubMenuFornecedores();
+
+//Variaveis dos arquivos que o programa vai ler
 const string ArquivosEstoque = "../DB/Estoque.csv";
 const string ArquivosFornecedores = "../DB/Fornecedores.csv";
 const string ArquivosLogins = "../DB/Logins.csv";

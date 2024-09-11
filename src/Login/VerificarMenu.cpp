@@ -1,4 +1,4 @@
-#include "../include/funcoesgerais.h"
+#include "../../include/funcoesgerais.h"
 
 void VerificarMenus(string cargo) {
     if (cargo == "Admin" || cargo == "admin") {

@@ -7,6 +7,5 @@ int main(){
     cout << "Senha: ";
     cin >> senha;
     VerificarMenus(VerificarLogin(login, senha));
- 
     return 0;
 }

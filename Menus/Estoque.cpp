@@ -20,6 +20,10 @@ void MenuEstoque() {
         }else if (Op == "3") {
             AvisosEstoque();
         }else if (Op == "0") {
+            system("cls");
+            cout << "Voltando para o menu principal aguarde..";
+            sleep(2.5);
+            //quebra o while do submenu login
             break;
         }
     }
